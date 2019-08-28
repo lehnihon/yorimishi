@@ -1,0 +1,22 @@
+@include media-breakpoint-down(md) {
+    #nav-fullscreen{
+        &.overlay{
+            a{font-size: 1rem !important}
+            .menu-close{
+            font-size: 2rem !important;
+            top: 35px !important;
+            right: 35px !important;
+            }
+        } 
+    }
+}
+
+
+@media (pointer: coarse) and (hover: none) {
+    #header {
+        background: url('assets/img/background.jpg') black no-repeat center center scroll;
+    }
+    #header video {
+        display: none;
+    }
+}

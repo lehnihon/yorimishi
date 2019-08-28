@@ -1,0 +1,46 @@
+#page{
+    .home-about{
+        padding-top:3rem;
+        padding-bottom:8rem;
+
+        a{
+            color:#000;
+        }
+        a:hover{
+            color:#cca36e;
+        }
+    }
+    .galeria-a{
+        padding-bottom:2rem;
+    }
+    .home-menu{
+        background-color:#4b1729;
+        padding:8rem 0;
+        h2{
+            color:#FFF;
+        }
+        p{
+            color:#FFF;
+        }
+    }
+    .galeria-b{
+        margin-top:-4rem;
+        padding-bottom:6rem;
+
+        a{
+            color:#000;
+        }
+        a:hover{
+            color:#cca36e;
+        }
+    }
+    .home-mapa{
+        iframe{
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+    }
+}
