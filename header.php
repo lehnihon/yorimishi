@@ -15,10 +15,10 @@
   <div id="nav-fullscreen" class="overlay">
     <a href="javascript:void(0)" class="menu-close">&times;</a>
     <div class="overlay-content">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+      <a href="#sobre">Yorimichi Izakaya</a>
+      <a href="#destaques">Destaques</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#contato">Contato</a>
     </div>
   </div>
   <div id="header">
@@ -28,7 +28,7 @@
     </video>
     <div class="container">
       <div class="row pt-4">
-        <div class="col-3">
+        <div class="col-8 col-sm-3">
           <ul class="redes">
             <li><a href=""><i class="fab fa-tripadvisor"></i></a></li>
             <li><a href=""><i class="fas fa-play"></i></a></li>
@@ -36,7 +36,7 @@
             <li><a href=""><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
-        <div class="col-8 ml-auto text-right">
+        <div class="col-4 col-sm-8 ml-auto text-right">
           <ul class="menu">
             <li><a href="#" class="menu-open">
               <div class="menu-hamb" >
@@ -46,10 +46,10 @@
               </div>
               <span>mais</span>
             </a></li>
-            <li><a href="#">Localização</a></li>
-            <li><a href="#">Fotos</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">O Yorimichi Izakaya</a></li>
+            <li class="d-none d-sm-block"><a href="#footer">Contato</a></li>
+            <li class="d-none d-sm-block"><a href="#localizacao">Localização</a></li>
+            <li class="d-none d-sm-block"><a href="#destaques">Destaques</a></li>
+            <li class="d-none d-sm-block"><a href="#sobre">Yorimichi Izakaya</a></li>
           </ul>
         </div>
       </div>
@@ -57,7 +57,7 @@
     <div class="container h-100">
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 text-white">
-          <img class="animated fadeInUp" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo.png"; ?>" />
+          <img class="img-fluid animated fadeInUp" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo.png"; ?>" />
         </div>
       </div>
     </div>

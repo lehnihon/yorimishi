@@ -4,25 +4,25 @@
       <img width="200" class="mx-auto img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo.png"; ?>" />
     </div>
     <div class="row mb-5 justify-content-center">
-      <div class="col-auto px-3"><a href="">O Yorimichi Izakaya</a></div>
-      <div class="col-auto px-3"><a href="">Menu</a></div>
-      <div class="col-auto px-3"><a href="">Fotos</a></div>
-      <div class="col-auto px-3"><a href="">Imprensa</a></div>                
+      <div class="col-auto px-3"><a href="#sobre">Yorimichi Izakaya</a></div>
+      <div class="col-auto px-3"><a href="#destaques">Destaques</a></div>
+      <div class="col-auto px-3"><a href="#localizacao">Localização</a></div>
+      <div class="col-auto px-3"><a href="#footer">Contato</a></div>                
     </div>
     <div class="row mb-3 justify-content-center">
       <div class="col-md-3">
         <h4>Endereço</h4>
         <p>
           Rua Otávio Nébias, 203 - Paraíso<br>
-          São Paulo - SP<br>
-          Brasil
+          São Paulo - SP - Brasil
+          
         </p>
       </div>
-      <div class="col-md-3">
-        <h4>Horários</h4>
+      <div class="col-md-4">
+        <h4>Horários de funcionamento</h4>
         <p>
-          Segunda a Sábado<br>
-          18h30 - 0h
+          Segunda a Sábado: Das 18h30 às 0h30<br>
+          Fechado aos Domingos e 3ª Segunda do mês
         </p>
       </div>
       <div class="col-md-3">
@@ -45,7 +45,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <span>© Copyright Yorimichi Izakaya 2019    | </span> <a href="#">Criação e Desenvolvimento Seimi Digital</a> 
+        <span>© Copyright Yorimichi Izakaya 2020    | </span> <a target="_blank" href="http://seimidigital.com.br/">Criação e Desenvolvimento Seimi Digital</a> 
       </div>
     </div>
   </div>

@@ -2,60 +2,66 @@
 get_header(); ?>
 <div id="page">
   <div class="container">
-    <div class="row home-about justify-content-center">
-      <div class="col-6 text-center">
+    <div id="sobre" class="row home-about justify-content-center">
+      <div class="col-sm-6 text-center">
         <h1 class="mb-4">Yorimichi Izakaya</h1>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum 
-hendrerit ante, at aliquet dolor malesuada non. Phasellus et leo auctor, 
-pellentesque lacus et, consequat urna.
+        <strong>De sushiman a empreendedor, essa é a história do Yorimichi Izakaya.</strong><br>
+Fundada em 11 de Agosto de 2016 pelo sushiman Ken Mizumoto, com o propósito de empreender e fugir do trivial,
+o Yorimichi é uma casa tradicional, tem um ambiente aconchegante, serve porções pequenas e tem
+uma ampla variedade de cervejas, saquês e shochus. 
         </p>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum 
-hendrerit ante, at aliquet dolor malesuada non. Phasellus et leo auctor, 
-pellentesque lacus et, consequat urna.
+        O Yorimichi está sendo um grande aprendizado para Ken Mizumoto, além de administrar a casa, ele se preocupa
+ com a questão financeira e a de pessoal. E com tanta dedicação, em 2017, o Yorimichi foi considerado o melhor izakaya de São Paulo. 
         </p>
-        <a href="#">conheça</a>
       </div>
     </div>
     <div class="row no-gutters galeria-a">
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <div class="row no-gutters">
           <div class="col-12"><img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto2.jpg"; ?>" /></div>
           <div class="col-12"><img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto3.jpg"; ?>" /></div>
         </div>
       </div>
-      <div class="col-md-6">
-        <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto1.jpg"; ?>" />
+      <div class="col-sm-6">
+        <img style="max-height: 696px;" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto1.jpg"; ?>" />
       </div>
     </div>
   </div>
-  <div class="home-menu">
+  <div id="destaques" class="home-menu">
     <div class="row justify-content-center">
-      <div class="col-6 text-center">
-        <h2>Conheça nosso Menu</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum 
-hendrerit ante, at aliquet dolor malesuada non. Phasellus et leo auctor, 
-pellentesque lacus et, consequat urna.</p>
+      <div class="col-sm-6 text-center">
+        <h2>Destaques</h2>
+        <p>Entre os diferenciais, destaca-se o Kamameshi (arroz cozido em uma panela de ferro), a extensa variedade de yakitoris
+(tradicionais espetinhos), Karasumi (ovas de tainha), tamagoyaki (omelete), Omuraisu (mexido de arroz com frango e omelete cremosa)
+e com a preocupação de preservar o meio ambiente, utiliza carvão de eucalipto reflorestado na grelha.</p>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row no-gutters galeria-b">
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <div class="row no-gutters">
           <div class="col-12"><img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto5.jpg"; ?>" /></div>
           <div class="col-12"><img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto6.jpg"; ?>" /></div>
         </div>
       </div>
-      <div class="col-md-6">
-        <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto4.jpg"; ?>" />
+      <div class="col-md-6 mb-5">
+        <img style="max-height: 697px;" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/foto4.jpg"; ?>" />
       </div>
-      <div class="col-md-12 mt-5 text-center">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum 
-  hendrerit ante, at aliquet dolor malesuada non.<br> Phasellus et leo auctor, 
-  pellentesque lacus et, consequat urna.</p>
-        <a href="#">menu completo</a>
+      <div id="localizacao" class="col-md-12 mt-5  text-center">
+        <h2 class="mb-3">Nossa localização</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4 text-left">
+            Rua Otávio Nébias, 203 - Paraíso <br>
+            São Paulo - SP - Brasil
+          </div>
+          <div class="col-md-4 text-left">
+            De Segunda a Sábado: Das 18h30 às 0h30<br>
+            Fechado aos Domingos e 3ª Segunda do mês
+          </div>
+        </div>
       </div>
     </div>
   </div>
